@@ -1,0 +1,23 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+} 
+
+/*botão prucurar do navbar*/
+.botao{
+    background-color: rgb(112, 112, 112);
+    color:#fff;
+    border-radius: 10px;
+    border: none;
+}
+/*fim do botão*/
+
+/*início dos cards*/
+@media(max-width:640px){
+    .navio{
+        width: 335px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}
+
