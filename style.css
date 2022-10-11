@@ -12,7 +12,7 @@ body{
 }
 /*fim do botão*/
 
-/*início dos cards*/
+/*ajustes para dispositivos móveis*/
 @media(max-width:640px){
     .navio{
         width: 335px;
@@ -20,4 +20,14 @@ body{
         margin-top: 15px;
     }
 }
+/*fim dos ajustes*/
 
+.navio{
+    background-color: rgb(38, 35, 35);
+    padding: 20px;
+}
+.frete{
+    width: 1000px;
+    height: 500px;
+    
+}
