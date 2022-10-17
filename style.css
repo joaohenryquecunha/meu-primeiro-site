@@ -26,8 +26,68 @@ body{
     background-color: rgb(38, 35, 35);
     padding: 20px;
 }
-.frete{
-    width: 1000px;
-    height: 500px;
-    
+.frete img{
+    margin: 0 auto;
+    position: relative;
+    width:1375px;
+    bottom: 290px;
+    left: -55px;
+      
+}
+@media(max-width:1400px){
+    .frete img{
+        position: relative;
+        width: 1145px;
+        margin-left: 8px;
+        bottom: 240px;
+    }
+}
+@media(max-width:1200px){
+    .frete img{
+        position: relative;
+        width: 1010px;
+        left: -50px;
+        bottom: 215px;
+    }
+}
+@media(max-width:1014px){
+    .frete img{
+        position: relative;
+        width: 820px;
+        margin-left: -60px;
+        bottom: 180px;
+    }
+}
+@media(max-width:992px){
+    .frete img{
+        position: relative;
+        width: 700px;
+        margin-left: 20px;
+        bottom: 150px;
+    }
+}
+@media(max-width:768px){
+    .frete img{
+        position: relative;
+        width: 600px;
+        bottom: 120px;
+        margin: 0 auto;
+
+    }
+    .card{
+        margin: 0 auto;
+    }
+}
+@media(max-width:641px){
+    .frete img{
+        position: relative;
+        width: 360px;
+        bottom: 75px;
+        left:-46px
+        
+    }
+    .card{
+        margin: 0 auto;
+        left: -8px;
+    }
 }
